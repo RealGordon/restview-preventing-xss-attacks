@@ -16,7 +16,7 @@ We’ll make use of `helmet` and `express-validator` as well as explore how to u
 
 ## Project
 
-this project demonstrates simple measures aagainst **DOM-Based, Reflected and Stored XSS attacks**.
+this project demonstrates simple measures against **DOM-Based, Reflected and Stored XSS attacks**.
 
 + **DOM-based**: by using `Element.textContent` instead of `document.write`
 + **Stored and reflected** : by using `helmet`, `express-validator` libraries to validate and sanitize user input
